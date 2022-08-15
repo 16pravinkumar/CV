@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Feel free to contact us!</h1>
+    <address></address>
+    <h3>545474466586</h3>
+    <p>sharmapravinkumar@7584.gmail.com</p>
+    <hr />
+    <form
+      action="mailto:sharmapravin717@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label
+        ><input
+          type="text"
+          name="yourName"
+          id=""
+          placeholder="enter your name "
+      /></label>
+      <br />
+      <br />
+      <label
+        ><input
+          type="email"
+          name="yourEmail"
+          id=""
+          placeholder="enter your email "
+          required
+      /></label>
+      <br />
+      <br />
+
+      <input type="password" placeholder="Enter your password" pattern="[a-z]{6}[0-9]{4}[!@#$%^]{1}"  name="yourPassword" id="" required>
+      Format:pravin1234@
+        <br><br>
+      <!-- <label for="">Format:123-45-789</label>
+       <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-789" required> -->
+
+      <textarea
+        name="youMessage"
+        id=""
+        cols="40"
+        rows="10"
+        placeholder="About you self"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
